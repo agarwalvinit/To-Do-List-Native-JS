@@ -9,12 +9,13 @@
         </style>
     </head>
     <body>
-        <form action="#" method="get">
-            <div id="userName">User Name :<input type="text" id="input" placeholder="eg. abc@gmail.com" /></div>
-            <div id="passwrd">Password :<input type="password" placeholder="password"/></div>
-            <div id="login"><input type="submit" id="Add" value="submit" /></div>
+        <form>
+            <div>User Name :<input type="text" id="input" placeholder="eg. abc@gmail.com" /><span id = 'uName'></span></div>
+            <div>Password :<input type="password"  id="passwrd" placeholder="password"/><span id = 'pwd'></span></div>
+            <div><input type="submit" id="Add" onclick="login(); return false;" value="submit" /></div>
+            <div><p>Required Username: "vinitagarwal069@gmail.com"</p>
+                 <p>Required Password: '12345678'</p></div>
         </form>
-        <div id="showTask"></div>
                 <script src="js/login.js"></script>
     </body>
 </html>
