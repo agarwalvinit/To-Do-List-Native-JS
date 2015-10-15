@@ -5,13 +5,14 @@ var user, pwd ;
 function login(){
     user = document.getElementById("input").value;
     pwd = document.getElementById("passwrd").value;
+    var usr = 'Vinit';
     var label = document.getElementById('lbl');
     label.innerHTML = '';
     if(user == '' || pwd == '' || user == null || pwd == null){
         label.innerHTML = '<p>Fields cannot be empty.</p>';
     } else if(user == name && pwd == pass){
         setTimeout(function(){
-            alert('loggedin successfully');
+            alert('Hi ' +usr+'! Welcome back');
             window.location.assign("index.html");
             }, 1000);
     } else {

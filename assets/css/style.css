@@ -6,7 +6,10 @@ body {
     color: #888;
     line-height: 30px;
     text-align: center;
-    background-image: url("../image/background/login_2.jpg");
+}
+
+.background-image{
+    background-image: url("../image/background/login_2.jpg"); 
 }
 
 strong { font-weight: 500; }
@@ -105,7 +108,7 @@ img { max-width: 100%; }
 .top-content .description a:focus { border-bottom: 1px dotted #fff; }
 
 .form-box {
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 .form-top {
@@ -159,15 +162,15 @@ img { max-width: 100%; }
 
 .form-bottom form p {
     font-size: 12px;
-    color: #b63333;
+    color: red;
 }
 
 .social-login {
-	margin-top: 35px;
+	margin-top: 20px;
 }
 
 .social-login-buttons {
-	margin-top: 25px;
+	margin-top: 20x;
 }
 
 .grad {
